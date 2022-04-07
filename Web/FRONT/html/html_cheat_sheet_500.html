@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+    <h1>Cheat Sheet de Tags Básicos</h1>
+    <p> En este documento se explican los tags básicos de HTML y se implementan para ejemplificarlos. </p>
+    <div>
+        <h3>Headers (hX)</h3>
+        <p>En primer lugar, tenemos los "Headers con el tag "hX" (siendo X un número del 1-6, cuyo uso es cambiar el tamaño), que nos sirve para poner títulos (poner en negritas) como se muestra a continuación: </p>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+    </div>
+
+    <div>
+        <h3>Párrafos (p)</h3>
+        <p>En cuanto a los párrafos, son definidos por el tag "p" nos sirve para insertar párrafos (se inserta una caja de texto). Este texto es un ejemplo claro del uso del tag.</p>
+
+    </div>
+
+    <div>
+        <h3>Links (a)</h3>
+        <p>Se usa tag "a" para marcas de hyperlink acompañado de href (para decirle a dónde ir). Esto nos ayuda a referenciar un lugar específico (puede ser otro archivo html o una página)</p>
+        <a href="html_link.html" target="_self">Va a la página del link</a>
+        <p>El atributo "Target" nos ayuda a definir si se va a cargar todo en la misma página o si se quiere ir a una nueva pestaña</p>
+    </div>
+
+    <div>
+        <h3>Divisiones (div)</h3>
+        <p>El tag "div" sirve de contendor que nos ayuda a estructurar y dar estilo posteriormente. Básicamente, nos sirve para identificar grupos de contenido y poder estilizarlos de manera simple.</p>
+        <p>En este documento html, se ejemplifica el uso del div por cada tag explicado (aunque visualmente no se vea, estructuralmente está presente). </p>
+    </div>
+
+    <div>
+        <h3>Strong (strong) y bold (b)</h3>
+        <p>El tag definido por la palabra "strong" nos sirve para dar mucha importancia a cierto pedazo de texto además de que se puede incluir dentro de una línea. Un ejemplo de esto es lo siguiente: <strong>importante</strong></p>
+        <p>Podría considerarse que "strong" es un tag semántico ya que sí tiene como objetivo recalcar la importancia de algo, mientras que existe otro tag cuyo único propósito es el estilo (en este caso poner las letras en bold): "b".</p>
+        <p>Podemos ver cómo el tag para bold "b" tiene un efecto igual al de strong, con la diferencia de que se utiliza más para dar estilo (o por lo menos eso se intenta): <b>importante</b></p>
+    </div>
+
+    <div>
+        <h3>Italica (i) y (em)</h3>
+        <p>En el caso de estos tags, tenemos un caso similar al de "strong" y "b". Siendo el tag "em" utilizado mayormente para dar énfasis, por ejemplo: <em>importante</em>. Por otro lado, el tag "i" se utiliza para dar cierto tono, por ejemplo: <i>importante</i>. A pesar de que ambos tags se ven iguales, nuevamente lo que varía es el significado que tienen. </p>
+    </div>
+    <div>
+        <h3>Subrayado (u)</h3>
+        <p>El tag "u" nos es de gran utilidad para subrayar cierta sección de texto. Por lo general es usada para marcar palabras mal escritas. Su implementación se ve de la siguiente manera: <u>subraia</u></p>
+    </div>
+    <div>
+        <h3>Tachado (strike)</h3>
+        <p>El tag "strike" nos sirve para tachar una sección de texto como se muestra: <strike>no sirve</strike>. Este elemento ya no es usado en HTML5 (de hecho se marca un error al utilizarlo, a pesar de que sigue funcionando) por lo que en su lugar se pueden usar los tags "del" <del>del</del> o "s" <s>s</s>.</p>
+    </div>
+    <div>
+        <h3>Texto pequeño (small)</h3>
+        <p>El tag "small" nos sirve para hacer el texto más pequeño. Puede ser utilizado para comentarios y se ve así: <small>hola en pequeño</small></p>
+    </div>
+
+    <h2>Tags Semánticos</h2>
+    <p>Los tags semánticos agregan significado. Es decir, cuando usamos cierto tag semántico, nos sirve para identificar el significado que le queremos dar a cierto segmento de estructura dentro del HTML.</p>
+    <header>
+        <h3>Dentro del header</h3>
+        <p>Esencialmente un div, pero con significado semántico (nos dice que es un div para header específicamente)</p>
+        <p>Este tag no se puede ejemplificar visualmente, sin embargo, actualmente nos encontramos dentro de un header. </p>
+    </header>
+    <span>
+        <h3>Dentro del span</h3>
+        <p>Contenedor para fraseo. Es muy parecido a div, pero en vez de funcionar en bloques, funciona por línea. Nos ayuda a estilizar una línea.</p>
+        <p>Este tag no se puede ejemplificar visualmente, sin embargo, actualmente nos encontramos dentro de un span. </p>
+    </span>
+    <section>
+        <h3>Dentro de section</h3>
+        <p>Este tag, como su nombre lo indica, nos sirve para definir una sección en un documento. Puede ayudarnos a identificar un grupo de contenidos sobre cierto tema.</p>
+        <p>Este tag no se puede ejemplificar visualmente, sin embargo, actualmente nos encontramos dentro del section. </p>
+    </section>
+    <article>
+        <h3>Dentro del article</h3>
+        <p>Contenedor para composición en un documento, página, etc, que puede ser usado de manera independiente.</p>
+        <p>Este tag no se puede ejemplificar visualmente, sin embargo, actualmente nos encontramos dentro del section. </p>
+    </article>
+    <aside>
+        <h3>Dentro de aside</h3>
+        <p>El tag "aside" sirve para insertar contenido aparte del que se incluye en el resto de la estructura del html. Es útil para contenidos tales como barras laterales o elementos insertados. Al igual que otros tags que fungen como contenedores, en este caso no es posible observar en la página un ejemplo de "aside", pero estamos dentro de este.</p>
+    </aside>
+    <footer>
+        <h3>Dentro de footer</h3>
+        <p>El tag "footer" es utilizado para incluir contenido en un pie de página. Es común incluir dentro de este tag información de contacto, información de copyrights, documentos relacionados, entre otros.</p>
+        <p>Este tag tampoco se puede visualizar en la página, sin embargo estamos dentro de un footer.</p>
+    </footer>
+    <nav>
+        <h3>Dentro de nav</h3>
+        <p>El tag de "nav" nos sirve para insertar bloques con links de navegación. Un ejemplo de esto podría ser la tabla de contenidos en una página. </p>
+        <p>Al igual que los otros tags semánticos que funcionan como contenedores, no nos es posible ver en la página el efecto directo de este. Sin embargo, lo que podría tener adentro es lo siguiente:</p>
+        <a href="https://www.w3schools.com/tags/tag_nav.asp">Nav Explicado</a>
+    </nav>
+    <div>
+        <h3>Imágenes (img)</h3>
+        <p>El tag "img" es diferente, no hay tag de cierre y funciona mediante atributos del tag. Como su nombre lo indica, nos sirve para insertar imágenes en nuestra página como se muesta a continuación:</p>
+        <img alt="cantinflas" src = "../images/cantinflas.jpg" width="200">
+        <p>Existen distintas maneras para incluir imágenes, es recomendable usar imágenes por default</p>
+    </div>
+    <div>
+        <h3>Salto de línea (br)</h3>
+        <p>Este tag, usado mediante la palabra "br", tiene el objetivo de proveernos con un salto de línea. Es un tag especial ya que no tiene tag de cierre, solo es tag abierto.</p>
+        <p>Podemos ver el siguiente ejemplo: <br> html <br> es bien <br> cool</p>
+    </div>
+    <div>
+        <h3>Listas</h3>
+        <p> En general, los tags relacionados con las listas nos ayudan a mantener la estructura ya sea de una lista ordenada y la de una lista sin orden. Cada elemento de una lista se define con el tag "li" (sin importar que sea ordenada o sin orden, se verá un ejemplo más adelante). </p>
+        <h4>Lista sin orden (ul)</h4>
+        <p>El tag "ul" (junto con "li" para cada elemento), nos ayuda a enlistar elementos sin importar el orden (se ponen "puntos"). Podemos ver el siguiente ejemplo en donde "ul" tiene distintos "li" adentro:</p>
+        <ul>
+            <li>Manzana</li>
+            <li>Pera</li>
+        </ul>
+        <h4>Lista ordenada (ol)</h4>
+        <p>El tag "ol" (junto con "li" para cada elemento de la lista), nos ayuda a enlistar elementos dando importancia al orden (se ponen "números") como en el siguiente ejemplo:</p>
+        <ol>
+            <li>Primaria</li>
+            <li>Secundaria</li>
+        </ol>
+    </div>
+    <div>
+        <h3>Tablas (table)</h3>
+        <p>Nos ayudan a organizar la información en filas y columnas (tr = table row, td = celda). En este caso, se utilizan tags diferentes: "table" para crear en términos generales la tabla, "tr" para las filas de la tabla, "th" para el encabezado de las columnas, "td" para definir una celda de datos. El uso de estos elementos se puede ejemplificar con lo siguiente:</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>h1</td>
+                    <td>h2</td>
+                    <td>h3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>r11</td>
+                    <td>r12</td>
+                    <td>r13</td>
+                </tr>
+                <tr>
+                    <td>r21</td>
+                    <td>r22</td>
+                    <td>r23</td>
+                </tr>
+                <tr>
+                    <td>r31</td>
+                    <td>r32</td>
+                    <td>r33</td>
+                </tr>
+            </tbody>
+        </table>
+        <p> Además, en este caso se tiene la estructura separada con los tags "thead" para el encabezado y "tbody" para lo demás. </p>
+    </div>
+    <div>
+        <h3>Formas (form)</h3>
+        <p>Contenedor para guardar cosas relacionadas con el usuario y nos ayuda a que éste pueda ingresar información (valores editables por ejemplo). Cabe recalcar que dentro de un tag "form" se utiliza much el tag "input" (que no tiene tag de cierre). Un ejemplo con algunos de los posibles campos: </p>
+        <form>
+            <p>Name</p>
+            <input>
+            <p>Email</p>
+            <input type="email">
+            <p>Password</p>
+            <input type="password">
+            <p>Description</p>
+            <textarea placeholder="Inserte texto"></textarea>
+            <button>Click me</button>
+        </form>
+    </div>
+</body>
+</html>

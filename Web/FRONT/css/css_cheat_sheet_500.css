@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 15px;
+}
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #ff9aa2;
+    border-radius: 25px;
+    background-color: #ff9aa2;
+}
+#borders{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #ffb7b2;
+    border-radius: 25px;
+    background-color: #ffb7b2;
+}
+#border{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2mm solid rgba(220, 107, 50, 0.6);
+    margin: auto;
+}
+#border-lados{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 2mm solid rgba(200, 60, 60, .6);
+    border-right: 2mm solid rgba(60, 184, 200, 0.6);
+    border-top: 2mm solid rgb(235, 188, 21);
+    border-bottom: 2mm solid rgb(24, 194, 15);
+}
+#background-image{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    background-image: url(../images/background.jpeg);
+}
+#color{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    border: 4mm solid #ffdac1;
+    border-radius: 25px;
+    background-color: #ffdac1;
+}
+#fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #e2f0cb;
+    border-radius: 25px;
+    background-color: #e2f0cb;  
+}
+#font{
+    font: italic 1.2em "Fira Sans", serif;
+}
+#font-family{
+    font-family: cursive;
+}
+#font-style-weight{
+    font-style: oblique;
+    font-weight: bold;
+}
+#width-height{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #b5ead7;
+    border-radius: 25px;
+    background-color: #b5ead7;
+    height: auto;
+    width: auto;
+}
+#list-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #c7ceea;
+    border-radius: 25px;
+    background-color: #c7ceea;
+}
+#profes{
+    list-style: inside url(../images/poke\ copy.png);
+}
+#margin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #b5ead7;
+    border-radius: 25px;
+    background-color: #b5ead7;
+}

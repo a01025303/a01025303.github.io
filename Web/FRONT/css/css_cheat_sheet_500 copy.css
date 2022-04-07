@@ -1,0 +1,24 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+}
+
+body {
+    margin: 0px;
+    padding: 15px;
+}
+
+p {
+    font-size: small;
+}
+
+div{
+    background-color: #f08054;
+}
+
+#header {
+    background-color: aqua;
+}
+.borders {
+    border: 2px solid black;
+}
