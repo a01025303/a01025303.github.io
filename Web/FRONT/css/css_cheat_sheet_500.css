@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 15px;
+    padding: 10px;
 }
 #header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -76,4 +76,52 @@
     border: 4mm solid #b5ead7;
     border-radius: 25px;
     background-color: #b5ead7;
+    margin: 1em;
+}
+#padding{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #e2f0cb;
+    border-radius: 25px;
+    background-color: #e2f0cb;  
+    padding: 50px;
+}
+#overflow{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #ffdac1;
+    border-radius: 25px;
+    background-color: #ffdac1;
+    height: 100px;
+    width: 300px;
+    overflow:scroll;
+}
+#display {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #ffb7b2;
+    border-radius: 25px;
+    background-color: #ffb7b2;
+}
+#ej{
+    display: block;
+}
+#ej2{
+    display: inline;
+}
+#position{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #ff9aa2;
+    border-radius: 25px;
+    background-color: #ff9aa2;
+}
+#sticky{
+    position: sticky;
+    bottom: 100px;
+}
+#filter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4mm solid #c7ceea;
+    border-radius: 25px;
+    background-color: #c7ceea;
+}
+#blur{
+    filter: blur(2px);
 }
