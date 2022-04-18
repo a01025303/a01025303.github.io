@@ -1,17 +1,97 @@
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+*{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div{
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+div {
+    /*border: 1px solid black;*/
+    /*margin: 10px;  /*cajas */
+    padding: 10px; 
+    align-items: center;
+    text-align: center;
 }
-#main-container{
-    justify-content: space-between;
-}
-.flex-container{
+
+
+#box1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#subscribe-general{
+    justify-content: center;
+    background-color: #25404b;
+    color: white;
+}
+
+#subscribe-button{
+    background-color: #ba7d2d;
+    color: white;
+}
+
+#form-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#foot{
+    justify-content: center;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-container {
+    justify-content: center;
+    background-color: #ba7d2d;
+    color: white;
+}
+
+#header-container {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0%;
+    background-color: #25404b;
+    color: white;
+}
+
+#info-container{
+    /*text-align: center;*/
+    justify-content: center;
+    font-size: smaller;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#foot-container {
+    justify-content: space-evenly;
+    background-color: #25404b;
+    color: white;
+    font-size: smaller;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
