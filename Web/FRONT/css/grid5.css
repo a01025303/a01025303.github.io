@@ -1,0 +1,121 @@
+* {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+p{
+    padding: 10px;
+}
+body{
+    background-color: #2b3043;
+    overflow: hidden;
+    height: 100vh;
+    margin: 5px;
+    padding: 10px;
+}
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    grid-auto-rows: repeat(3, auto);
+    height: 95%;
+    margin: auto;
+    word-wrap: break-word;
+  }
+
+#uno {
+    background-color: #02a787;
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#dos {
+    background-color: #fd815b;
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#tres {
+    background-color:#1cc1a1;
+    grid-column: 3;
+    grid-row: 1; 
+}
+
+#cuatro {
+    background-color: #fd6057;
+    grid-column: 4;
+    grid-row: 1; 
+}
+
+#cinco {
+    background-color: #1cc1a1;
+    grid-column: 5;
+    grid-row: 1; 
+}
+
+#seis {
+    background-color: #fea062;
+    grid-column: 6;
+    grid-row: 1; 
+}
+#siete {
+    background-color: #fea062;
+    grid-column: 1;
+    grid-row: 2; 
+}
+#ocho {
+    background-color: #02a787;
+    grid-column: 2;
+    grid-row: 2; 
+}
+#nueve {
+    background-color: #fd815b;
+    grid-column: 3;
+    grid-row: 2; 
+}
+#diez {
+    background-color: #1cc1a1;
+    grid-column: 4;
+    grid-row: 2; 
+}
+#once {
+    background-color: #fea062;
+    grid-column: 5;
+    grid-row: 2; 
+}
+#doce {
+    background-color: #fd6057;
+    grid-column: 6;
+    grid-row: 2; 
+}
+#trece {
+    background-color: #02a787;
+    grid-column: 1;
+    grid-row: 3; 
+}
+#catorce {
+    background-color: #fd6057;
+    grid-column: 2;
+    grid-row: 3; 
+}
+#quince {
+    background-color: #fea062;
+    grid-column: 3;
+    grid-row: 3; 
+}
+#dieciseis {
+    background-color: #fd815b;
+    grid-column: 4;
+    grid-row: 3; 
+}
+#diecisiete {
+    background-color: #02a787;
+    grid-column: 5;
+    grid-row: 3; 
+}
+#dieciocho {
+    background-color: #fea062;
+    grid-column: 6;
+    grid-row: 3; 
+}

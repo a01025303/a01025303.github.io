@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+p{
+    margin: 30px;
+    padding: 10px;
+}
+body{
+    background-color: #2b3043;
+    overflow: hidden;
+    height: 100vh;
+    margin: 5px;
+    padding: 10px;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    height: 96%;
+  }
+
+#uno {
+    background-color: #fd6057;
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#dos {
+    background-color: #fd815b;
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#tres {
+    background-color: #fea062;
+    grid-column: 3;
+    grid-row: 1; 
+}
+
+#cuatro {
+    background-color: #02a787;
+    grid-column: 1;
+    grid-row: 2; 
+}
+
+#cinco {
+    background-color: #1cc1a1;
+    grid-column: 2;
+    grid-row: 2; 
+}
+
+#seis {
+    background-color: #35daba;
+    grid-column: 3;
+    grid-row: 2; 
+}

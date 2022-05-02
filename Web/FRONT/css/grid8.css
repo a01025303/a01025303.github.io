@@ -1,0 +1,75 @@
+* {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+p{
+    padding: 10px;
+}
+body{
+    background-color: #2b3043;
+    overflow: hidden;
+    height: 100vh;
+    margin: 5px;
+    padding: 10px;
+}
+.grid8 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    grid-auto-rows: repeat(3, auto);
+    height: 95%;
+    margin: auto;
+    word-wrap: break-word;
+  }
+
+#uno {
+    background-color: #fd6057;
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#dos {
+    background-color: #fea062;
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#tres {
+    background-color:#35daba;
+    grid-column: 3;
+    grid-row: 1; 
+}
+
+#cuatro {
+    background-color: #1cc1a1;
+    grid-column: 4;
+    grid-row: 1; 
+}
+
+#cinco {
+    background-color: #02a787;
+    grid-column: 5;
+    grid-row: 1; 
+}
+#seis {
+    background-color: #fea062;
+    grid-column: 1;
+    grid-row: 2; 
+}
+#siete {
+    background-color: #fd6057;
+    grid-column: 2;
+    grid-row: 2; 
+}
+#ocho {
+    background-color: #fd815b;
+    grid-column: 3 / 6;
+    grid-row: 2; 
+}
+#nueve {
+    background-color: #35daba;
+    grid-column: 1 / 6;
+    grid-row: 3; 
+}
